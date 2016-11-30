@@ -44,3 +44,109 @@ margin-bottom: 10px;
   color: #f36;
   border-bottom: 1px solid #f36;
 }
+
+.retail-section{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-between;
+  width: 100%;
+}
+
+.image-block{
+  margin: 2% 2% 1% 2%;
+  height: 50vh;
+  width: 94%;
+  background-size: cover;
+}
+
+.first{
+  background-image: url("https://s3.amazonaws.com/www-assets.invisionapp.com/marketplace/homepage/jon-contino-homepage-tshirt-large.jpg");
+}
+
+.second{
+  background-image: url("https://s3.amazonaws.com/www-assets.invisionapp.com/marketplace/homepage/laura-bohill-homepage-tshirt-large.jpg");
+}
+
+.third{
+  background-image: url("https://s3.amazonaws.com/www-assets.invisionapp.com/marketplace/homepage/daniel-haire-homepage-tshirt-large.jpg");
+}
+
+.fourth{
+  background-image: url("https://s3.amazonaws.com/www-assets.invisionapp.com/marketplace/homepage/jesse-brais-homepage-tshirt-large.jpg");
+}
+
+.newsletter-wrapper{
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  height: 200px;
+  width: 100vw;
+  justify-content: space-between;
+}
+
+.new-styles{
+  line-height: normal;
+  text-align: center;
+  font-size: 1rem;
+  letter-spacing: 2px;
+}
+
+.btftk{
+  line-height: normal;
+  text-align: center;
+  font-size: .8rem;
+  letter-spacing: 1px;
+
+}
+
+.email-and-button{
+  display: flex;
+  flex-direction: column;
+  border-radius: 0px;
+  padding: 26px 40px;
+
+}
+
+.newsletter-input{
+  background-color: black
+  color: black;
+  height: 35px;
+  width: 45vw;
+  font-size: 18px;
+}
+
+.btnNewsletter{
+  background-color: black;
+  color: white;
+  border: 1px solid #000;
+  height: 40.5px;
+  width: 20vw;
+  font-size: 22px;
+}
+
+@media(min-width: 700px){
+  .retail-section{
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .image-block{
+    width: 45vw;
+    height: 36vw;
+    background-size: 100%;
+    background-repeat: no-repeat;
+  }
+
+  .email-and-button{
+    flex-direction: row;
+  }
+
+  @media(min-width: 900px){
+  html{
+    font-size: 18px;
+    }
+  }
+}
